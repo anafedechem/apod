@@ -1,0 +1,21 @@
+header{
+    background-color: lightpink;
+    height: 30px;
+}
+body{
+    background-color: antiquewhite;
+}
+.calendar {
+    background-color: pink;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+.imagemEncontrada{
+    background-color: pink;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
