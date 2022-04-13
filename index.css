@@ -14,8 +14,22 @@ body{
 }
 .imagemEncontrada{
     background-color: pink;
-    width: 400px;
-    height: 400px;
+    width: fit-content;
+    height: 350px;
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 30px;
+}
+#img-do-dia{
+    max-height: 350px;
+}
+
+#descricao {
+    background-color: lightpink;
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
