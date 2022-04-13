@@ -24,6 +24,10 @@ body{
     max-height: 350px;
 }
 
+#video-do-dia{
+    max-width: 500px;
+}
+
 #descricao {
     background-color: lightpink;
     width: 400px;

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Document</title>
 </head>
 
@@ -19,11 +20,12 @@
     <form class="calendar">
         <label for="datasDisponíveis">Informe uma data:</label>
         <input type="date" id="data-selecionada" name="data">
-        <input type="submit" value="OK" id="submit">
+        <input type="submit" value="OK" class="animate__animated animate__bounce" id="submit">
     </form>
 
     <div class="imagemEncontrada">
-        <img src="" alt="imagem encontrada" id="img-do-dia">
+        <img src="" alt="imagem do dia" id="img-do-dia" style="display: none;">
+        <iframe src="" alt="video do dia" id="video-do-dia" style="display: none;"></iframe>
     </div>
     <div>
         <p id="descricao"></p>
