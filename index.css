@@ -16,7 +16,9 @@ h2{
 }
 
 body{
-    background-color: #023047;
+    /* background-color: #023047; */
+    background-image: url("background.jpg");
+
 }
 .calendar {
     background-color: black;
@@ -26,6 +28,7 @@ body{
     padding: 20px;
     margin: auto;
     margin-top: 20px;
+    border: 0.5px solid white;
 }
 
 a{
@@ -60,6 +63,7 @@ a{
 #descricao {
     background-color: black;
     color: white;
+    border: 0.5px solid white;
     font-family: 'Courier New', Courier, monospace;
     width: 400px;
     height: fit-content;
