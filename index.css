@@ -1,35 +1,66 @@
 header{
-    background-color: lightpink;
-    height: 30px;
+    background-color: black;
+    height: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: flex-end;
 }
+
+h2{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    font-size: larger;
+}
+
 body{
-    background-color: antiquewhite;
+    background-color: #023047;
 }
 .calendar {
-    background-color: pink;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
     width: fit-content;
     padding: 20px;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
+}
+
+a{
+    width: fit-content;
+    padding: 0.5% 1%;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    margin: 1%;
+    display: flex;
+    align-items: center;
 }
 .imagemEncontrada{
-    background-color: pink;
+    background-color: transparent;
     width: fit-content;
     height: 350px;
     margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 #img-do-dia{
-    max-height: 350px;
+    max-height: 100%;
 }
 
 #video-do-dia{
-    max-width: 500px;
+    max-width:100%;
+    margin-top: 30%;
 }
 
 #descricao {
-    background-color: lightpink;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
     width: 400px;
     height: fit-content;
     padding: 20px;
